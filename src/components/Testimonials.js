@@ -18,16 +18,13 @@ const Card = ({ star, title, imgSrc }) => {
       </div>
       <h2 className="text-lg font-semibold mb-2">{title}</h2>
       <p className="leading-loose">
-        Get working experience to work with this amazing team & in future want
-        to work together for bright future projects and also make deposit to
-        freelancer.
-      </p>
+        "Saya sangat puas dengan pelayanan dari Quadra Pump Solutions. Mereka sangat responsif, cepat dalam menangani perbaikan pompa air saya yang rusak. Teknisi mereka juga sangat berpengalaman dan ramah. Terima kasih Quadra Pump Solutions, saya pasti akan merekomendasikan jasa Anda kepada teman dan keluarga.</p>
       <div className="flex items-center gap-4 mt-5">
         <Image src={imgSrc} width={50} height={50} alt="testimonials" />
         <div>
-          <h3 className="font-semibold">Naseem Khan</h3>
+          <h3 className="font-semibold">Pelanggan</h3>
           <Link
-            href="https://github.com/NaseemKhan005"
+            href="#"
             target="_blank"
             className="text-rose-600 font-[500]"
           >
@@ -47,7 +44,7 @@ const Testimonials = () => {
     >
       <div>
         <span className="service-name text-center ">TESTIMONIAL</span>
-        <h2 className="title text-center ">Meet Client Satisfaction</h2>
+        <h2 className="title text-center ">Ulasan Dari Pelanggan</h2>
       </div>
       <Carousel {...carouselParams}>
         <div>
