@@ -28,7 +28,7 @@ const Card = ({ star, title, imgSrc }) => {
             target="_blank"
             className="text-rose-600 font-[500]"
           >
-            @naseemkhan
+            @anonymous
           </Link>
         </div>
       </div>
