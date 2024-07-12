@@ -19,32 +19,6 @@ const Footer = () => {
             <p className="max-w-xs mt-4 text-sm">
               Solusi Pompa Air Terbaik Di Yogyakarta!
             </p>
-            <div className="flex mt-8 space-x-6">
-              <Link
-                href="https://www.facebook.com/profile.php?id=100017192357822&sk"
-                target="_blank"
-              >
-                <FacebookOutlinedIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link href="https://github.com/quadrapump" target="_blank">
-                <GitHubIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/quadrapump/"
-                target="_blank"
-              >
-                <LinkedInIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link href="https://twitter.com/quadrapump" target="_blank">
-                <TwitterIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link
-                href="https://www.instagram.com/quadrapump"
-                target="_blank"
-              >
-                <InstagramIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
-            </div>
           </div>
 
           <div className="grid gap-8 lg:col-span-2 grid-cols-2 md:grid-cols-4">
