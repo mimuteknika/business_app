@@ -15,29 +15,29 @@ const QualityFeature = ({ imgSrc, title, desc }) => {
 const QualityFeatures = () => {
   return (
     <section className="container mx-auto px-5 md:px-16">
-      <span className="service-name text-center ">QUALITY FEATURES</span>
-      <h2 className="title text-center ">Amazing useful features</h2>
+      <span className="service-name text-center ">KUALITAS LAYANAN</span>
+      <h2 className="title text-center ">Kelebihan Layanan Kami</h2>
 
       <div className="grid gap-x-10 gap-y-16 sm:grid-cols-2 mt-10 md:mt-20 lg:w-[88%] mx-auto">
         <QualityFeature
           imgSrc="/features/1.svg"
-          title="Fast Performance"
-          desc="Let's just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world."
+          title="Team Profesional dan Berpengalaman"
+          desc="Kami Quadra Pump Solutions Yogyakarta mempunyai tim teknisi yang profesional dan berpengalaman dalam penanganan segala jenis permasalahan pompa air. Mereka memiliki pengetahuan mendalam dan keterampilan yang teruji dalam bidang ini, sehingga Anda dapat yakin bahwa pompa air Anda akan ditangani dengan baik oleh ahli di bidangnya."
         />
         <QualityFeature
           imgSrc="/features/2.svg"
-          title="Partnership deal"
-          desc="Let's just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world."
+          title="Peralatan Modern dan Terjamin Kehandalannya"
+          desc="Kami mengutamakan kualitas dalam setiap layanan yang kami berikan, termasuk dalam pemilihan peralatan yang digunakan. Kami menggunakan peralatan modern dan terjamin kehandalannya sehingga proses perbaikan, instalasi, atau perawatan pompa air dapat dilakukan dengan efektif dan efisien."
         />
         <QualityFeature
           imgSrc="/features/3.svg"
-          title="Pro Subscription"
-          desc="Let's just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world."
+          title="Pelayanan Terbaik untuk Kepuasan Pelanggan"
+          desc="Kepuasan pelanggan adalah prioritas utama kami. Kami selalu berusaha memberikan pelayanan terbaik, mulai dari respons cepat, komunikasi yang jelas, hingga solusi yang tepat dan memuaskan untuk setiap masalah pompa air yang Anda hadapi. Kepuasan Anda adalah cerminan dari kualitas layanan yang kami berikan."
         />
         <QualityFeature
           imgSrc="/features/4.svg"
-          title="Customer Support"
-          desc="Let's just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world."
+          title="Instalasi Pompa Air Berkualitas Tinggi"
+          desc="Kami menawarkan jasa instalasi pompa air dengan standar kualitas tinggi. Tim kami akan melakukan instalasi dengan teliti dan sesuai dengan panduan yang benar, sehingga pompa air dapat berfungsi dengan optimal dan awet."
         />
       </div>
     </section>
