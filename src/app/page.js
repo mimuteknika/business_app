@@ -16,7 +16,6 @@ export default function Home() {
     <div className="flex flex-col gap-16 md:gap-32">
       <HeroSection />
       <QualityFeatures />
-      <Testimonials />
     </div>
   );
 }
