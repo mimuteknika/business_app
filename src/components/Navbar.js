@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
         <Link href={"/"}>
           <h2 className="text-3xl">
-            <span className="text-rose-600">N</span>aseem.
+            <span className="text-rose-600">Q</span>uadra.
           </h2>
         </Link>
 
@@ -73,23 +73,23 @@ const Navbar = () => {
             ))}
             <div className="md:hidden mx-auto absolute bottom-16 left-1/2 -translate-x-1/2 flex gap-3">
               <Link
-                href="https://www.facebook.com/profile.php?id=100017192357822&sk"
+                href="https://www.facebook.com/quadrapump"
                 target="_blank"
               >
                 <FacebookOutlinedIcon className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
               <Link
                 target="_blank"
-                href={"https://www.linkedin.com/in/naseem-khan-275275258/"}
+                href={"https://www.linkedin.com/in/quadrapump/"}
               >
                 <LinkedInIcon className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
-              <Link target="_blank" href={"https://github.com/NaseemKhan005/"}>
+              <Link target="_blank" href={"https://github.com/quadrapump/"}>
                 <GitHubIcon className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
               <Link
                 target="_blank"
-                href={"https://www.instagram.com/naseem_khan005/"}
+                href={"https://www.instagram.com/quadrapump/"}
               >
                 <InstagramIcon className="cursor-pointer hover:text-rose-600 text-xl" />
               </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2 sm:gap-4 md:gap-2 lg:gap-4">
           <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-rose-600 border-rose-600 hover:border-rose-600 hover:bg-rose-600 hover:text-white rounded-full">
-            <Link href={"#pricing"}>Get Started</Link>
+            <Link href={"https://wa.me/683159306744"}>083159306744</Link>
           </button>
           <button>
             {theme === "dark" ? (
