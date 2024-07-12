@@ -99,7 +99,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2 sm:gap-4 md:gap-2 lg:gap-4">
           <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-rose-600 border-rose-600 hover:border-rose-600 hover:bg-rose-600 hover:text-white rounded-full">
-            <Link href={"https://wa.me/683159306744"}>083159306744</Link>
+            <Link href={"https://wa.me/6283159306744"}>WhatsApp</Link>
           </button>
           <button>
             {theme === "dark" ? (
