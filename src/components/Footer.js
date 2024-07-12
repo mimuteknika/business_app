@@ -17,8 +17,7 @@ const Footer = () => {
               <span className="text-rose-600">Q</span>uadra.
             </Link>
             <p className="max-w-xs mt-4 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-              accusantium.
+              Solusi Pompa Air Terbaik Di Yogyakarta!
             </p>
             <div className="flex mt-8 space-x-6">
               <Link
